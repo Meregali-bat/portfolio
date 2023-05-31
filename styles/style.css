@@ -83,6 +83,9 @@ body {
     color: var(--cor-terciaria);
 }
 
+.apresentacao__conteudo__texto li{
+    margin: 10px;
+}
 
 .titulo-destaque {
     color: var(--cor-terciaria);
@@ -158,6 +161,10 @@ body {
 
     .cabecalho__menu{
         justify-content: center;
+    }
+
+    .cabecalho__menu__link{
+        font-size: 1.2rem;
     }
 
     .apresentacao{
