@@ -11,10 +11,15 @@
     --cor-terciaria : #4E9F3D;
     --cor-hover : #D8E9A8; */
 
-    --cor-primaria : #171717; 
+    /* --cor-primaria : #171717; 
     --cor-secundaria : #DA0037;
     --cor-terciaria : #EDEDED;
-    --cor-hover : #444444;
+    --cor-hover : #444444; */
+
+    --cor-primaria : #343A40; 
+    --cor-secundaria : #E1E8EB;
+    --cor-terciaria : #7952B3;
+    --cor-hover : #FFC107;
 
     --font-primaria : 'Krona One', sans-serif;
     --font-secundaria : 'Montserrat', sans-serif;
@@ -143,7 +148,7 @@ body {
 }
 
 .rodape{
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     background-color: var(--cor-terciaria);
     text-align: center;
     padding: 24px;
