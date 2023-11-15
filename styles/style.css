@@ -11,15 +11,20 @@
     --cor-terciaria : #4E9F3D;
     --cor-hover : #D8E9A8; */
 
-    --cor-primaria : #171717; 
-    --cor-secundaria : #DA0037;
-    --cor-terciaria : #EDEDED;
-    --cor-hover : #444444;
+    /* --cor-primaria : #171717; 
+    --cor-secundaria : #EDEDED;
+    --cor-terciaria : #DA0037;
+    --cor-hover : #444444; */
 
     /* --cor-primaria : #343A40; 
     --cor-secundaria : #E1E8EB;
     --cor-terciaria : #7952B3;
     --cor-hover : #FFC107; */
+
+    --cor-primaria : #000000; 
+    --cor-secundaria : #ffffff;
+    --cor-terciaria : #673ab7;
+    --cor-hover : #cdcdcd;
 
     --font-primaria : 'Krona One', sans-serif;
     --font-secundaria : 'Montserrat', sans-serif;
@@ -145,6 +150,14 @@ body {
 .bi-instagram,
 .bi-github,
 .bi-linkedin{
+    color: var(--cor-terciaria);
+}
+
+.apresentacao__conteudo__lista{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: 2rem;
     color: var(--cor-terciaria);
 }
 
