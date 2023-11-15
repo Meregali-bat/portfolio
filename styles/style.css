@@ -11,15 +11,15 @@
     --cor-terciaria : #4E9F3D;
     --cor-hover : #D8E9A8; */
 
-    /* --cor-primaria : #171717; 
+    --cor-primaria : #171717; 
     --cor-secundaria : #DA0037;
     --cor-terciaria : #EDEDED;
-    --cor-hover : #444444; */
+    --cor-hover : #444444;
 
-    --cor-primaria : #343A40; 
+    /* --cor-primaria : #343A40; 
     --cor-secundaria : #E1E8EB;
     --cor-terciaria : #7952B3;
-    --cor-hover : #FFC107;
+    --cor-hover : #FFC107; */
 
     --font-primaria : 'Krona One', sans-serif;
     --font-secundaria : 'Montserrat', sans-serif;
@@ -81,6 +81,7 @@ body {
     font-size: 1.5rem;
     font-family: var(--font-secundaria);
     font-weight: 400;
+    text-align: justify;
 }
 
 .apresentacao__conteudo__texto a{
